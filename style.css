@@ -366,6 +366,11 @@ section {
   font-weight: 500;
   margin-top: 10px;
   background-color: #ccc;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: var(--bg-color);
+
+
+
 }
 #more {
   display: none;
