@@ -377,6 +377,8 @@ section {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   margin-left: auto;
   font-size: 18px;
+  color: var(--black);
+  background-color: var(--bg-color);
 }
 .showMoreButton:active {
   box-shadow: none;
@@ -428,5 +430,8 @@ section {
   .header {
     width: 100%;
     border-right: 0;
+  }
+  .go-to-github {
+    margin-left: 25px;
   }
 }
