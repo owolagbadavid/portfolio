@@ -45,7 +45,7 @@ showmore.addEventListener("click", () => {
 form.onclick = function(e){
   e.preventDefault();
   const data = {email: email.value, name: clientName.value, message: message.value}
-  postData("https://formsubmit.co/ajax/8d5adb66a53b9ebdcb1b6e79488a69b3", data)
+  postData("https://formsubmit.co/ajax/owolagbadavid@gmail.com", data)
   .then((res)=> alert("Your Message has been sent"))
   .catch((err)=> alert("Error sending message, please try again"))
 }
