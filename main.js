@@ -6,6 +6,7 @@ const form = document.getElementById("form-btn");
 const email = document.getElementById("client-email");
 const clientName = document.getElementById("client-name");
 const message = document.getElementById("client-message");
+more.style.display = "none";
 menu.onclick = () => {
   menu.classList.toggle("fa-times");
   header.classList.toggle("active");

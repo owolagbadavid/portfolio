@@ -372,9 +372,9 @@ section {
 .go-to-github a {
   color: var(--black);
 }
-#more {
+/* #more {
   display: none;
-}
+} */
 .showMoreButton {
   padding: 5px 10px;
   cursor: pointer;
